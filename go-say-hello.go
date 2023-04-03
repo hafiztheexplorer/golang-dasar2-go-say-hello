@@ -6,6 +6,7 @@ import (
 
 func GoSayhello(nama string) (string, int) {
 	AngkaRandom := rand.Int()
+
 	return "helloo world !! " + nama, AngkaRandom
 
 }
