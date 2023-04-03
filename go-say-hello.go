@@ -4,8 +4,8 @@ import (
 	"math/rand"
 )
 
-func GoSayhello() (string, int) {
+func GoSayhello(nama string) (string, int) {
 	AngkaRandom := rand.Int()
-	return "helloo world !! ", AngkaRandom
+	return "helloo world !! " + nama, AngkaRandom
 
 }
